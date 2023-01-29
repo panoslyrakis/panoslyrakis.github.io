@@ -1,0 +1,95 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@panoslyrakis 
+panoslyrakis
+/
+panoslyrakis.github.io
+Public
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+panoslyrakis.github.io/_config.yml
+
+# Base configuration
+exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md"]
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Title
+name: Code Snippets
+
+# Author
+author:
+  name: Panos Lyrakis
+  url: https://github.com/panoslyrakis/
+
+# See http://jekyllrb.com/docs/github-pages/ for more info
+baseurl: '/panoslyrakis.github.io'
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/dc_logo.png
+logoalt: The D.C. flag
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Introduction
+  internal: true
+  url: ./
+- text: Add a new page
+  internal: true
+  url: add-a-new-page
+- text: Configure the Guide
+  internal: true
+  url: configure-the-guide
+- text: GitHub Setup
+  internal: true
+  url: github
+- text: Create a Glossary
+  glossary: true
+- text: Edit this Repo
+  internal: false
+  url: https://github.com/panoslyrakis/panoslyrakis.github.io
+
+# Repo list
+repos:
+- name: code-snipets
+  description: 
+  url: https://github.com/panoslyrakis
+
+google_analytics_ua: 
+
+# Style Variables
+brand_color: "#DA253B"
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
